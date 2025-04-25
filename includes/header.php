@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>
-            <?= $title ?>
+            <?= htmlspecialchars($title) ?>
         </title>
-        <meta name="description" content="<?= $description ?>">
+        <meta name="description" content="<?= htmlspecialchars($description) ?>">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
